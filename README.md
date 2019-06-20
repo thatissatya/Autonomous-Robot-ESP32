@@ -23,4 +23,11 @@
       2. Paste The Following Link (https://dl.espressif.com/dl/package_esp32_index.json)
       3. Click On Ok
   3. Download The Board from :
-      Arduino IDE->Tools->Boards->Boards Manager->Search Keywords(ESP32)->click On install
+     1. Arduino IDE->Tools->Boards->Boards Manager->Search Keywords(ESP32)->click On install
+     2. Upload the camera web server file in esp32 cam module and burn the program using USB_to_TTL
+     3. Reset the Board and Go to serial monitor 
+     4. copy the address and paste it into the browser and click on start streaming
+     5. Explore the features
+   4. Setup for Color detection
+        
+  

@@ -1,7 +1,6 @@
-
 // defines pins num
-#define trigPin = 9;
-#define echoPin = 10;
+#define trigPin  12
+#define echoPin  13
 // defines variables
 long duration;
 int distance;
@@ -22,5 +21,7 @@ digitalWrite(trigPin, LOW);
 duration = pulseIn(echoPin, HIGH);
 // Calculating the distance
 distance= duration*0.034/2;
-
+Serial.print("Distance = ");
+Serial.println(distance);
+delay(1000);
 }
